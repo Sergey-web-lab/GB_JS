@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topRow"></div>
+    <div class="leftRow"></div>
+    <div class="container">
+    </div>
+
+    <div class="basket">
+        <div class="basket__catalog">
+            <div class="catalog__row">
+                <div class="catalog__row_pencils">
+                    <div class="counter_wrapper" data-id="01">
+                        <div class="item_title">pencils</div>
+                        <div class="item_price">цена: 20</div>
+                        <div class="item_amount" data-counter>0</div>
+
+                        <div class="counter_plus" data-action="plus">Купить</div>
+
+                    </div>
+                </div>
+                <div class="catalog__row_notebooks">
+                    <div class="counter_wrapper" data-id="02">
+                        <div class="item_title">notebooks</div>
+                        <div class="item_price">цена: 30</div>
+                        <div class="item_amount" data-counter>0</div>
+
+                        <div class="counter_plus" data-action="plus">Купить</div>
+
+                    </div>
+                </div>
+                <div class="catalog__row_rulers">
+                    <div class="counter_wrapper" data-id="03">
+                        <div class="item_title">rulers</div>
+                        <div class="item_price">цена: 15</div>
+                        <div class="item_amount" data-counter>0</div>
+
+                        <div class="counter_plus" data-action="plus">Купить</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart">
+                <h3>Корзина</h3>
+                <div class="cart__wrapper"></div>
+            </div>
+            <button class="cart__reset" data-reset>Очистить корзину</button>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
