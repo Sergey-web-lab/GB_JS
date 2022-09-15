@@ -1,0 +1,106 @@
+.basket {
+    font-size: 50px;
+}
+
+.catalog__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addToBasket__btn {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    display: block !important;
+    width: 70px;
+}
+
+.counter_plus,
+.addToBasket__btn,
+.counter_minus {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    background-color: #599bb3;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3d768a;
+}
+
+.counter_plus:hover,
+.addToBasket__btn:hover,
+.counter_minus:hover {
+    background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+    background-color: #408c99;
+}
+
+.counter_plus:active,
+.addToBasket__btn:active,
+.counter_minus:active {
+    position: relative;
+    top: 1px;
+}
+
+.bscketText {
+    margin-left: 60px;
+}
+
+.cart__wrapper {
+    display: flex;
+    justify-content: start;
+}
+
+.sendAMessage__leftBlock_form {
+    display: none;
+}
+
+.sendAMessage__leftBlock_form_comments {
+    display: none;
+}
+
+
+.nextBlock {
+    box-shadow: inset 0px 1px 0px 0px #a4e271;
+    background: linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+    background-color: #89c403;
+    border-radius: 6px;
+    border: 1px solid #74b807;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528009;
+}
+
+.nextBlock:hover {
+    background: linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+    background-color: #77a809;
+}
+
+.nextBlock:active {
+    position: relative;
+    top: 1px;
+}
+
+.nextBlock_wrapper {
+    display: none;
+}
+
+.nextBlock_wrapper_2 {
+    display: none;
+}
+
+.counter_wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+}
